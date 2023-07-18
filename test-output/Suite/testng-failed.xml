@@ -3,14 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="test.Test_Cases_Vendor_5">
+      <class name="test.Test_Cases_Loyalty_Club_7">
         <methods>
-          <include name="create"/>
           <include name="browser"/>
           <include name="closebrowser"/>
           <include name="object"/>
+          <include name="loyalty_club_assign_to_customer"/>
         </methods>
-      </class> <!-- test.Test_Cases_Vendor_5 -->
+      </class> <!-- test.Test_Cases_Loyalty_Club_7 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

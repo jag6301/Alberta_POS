@@ -19,7 +19,7 @@ public class Test_Cases_Login_4 extends Base_Test{
 		 driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		kk.clickonlogin();
 		  
-		String e = "Customer-Alberta | Dashboard";
+		String e = "nice to good";
 		Thread.sleep(2000);
 		String d = driver.getTitle();
 		System.out.println(d);
@@ -27,9 +27,9 @@ public class Test_Cases_Login_4 extends Base_Test{
 		 SoftAssert sb = new SoftAssert();
 		    
 		    sb.assertEquals(e,d);
+		    //Customer-Alberta | Dashboard
 		    
-		    
-		driver.findElement(By.xpath("//*[@id=\"main_nav\"]/div/a")).click();
+		   
 	}
 
 }
