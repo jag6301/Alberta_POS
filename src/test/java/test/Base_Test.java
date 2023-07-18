@@ -1,27 +1,22 @@
 package test;
 
 import java.io.IOException;
-import java.lang.StackWalker.Option;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import listener.Test_Listener;
-import pages.Vendor;
 import pages.Customer;
 import pages.Items;
 import pages.Login_Page;
 import pages.Loyalty_Club;
+import pages.Vendor;
 import utility.Excel_Read;
-
 import utility.Read_Property;
 import utility.Scree;
 
