@@ -113,7 +113,7 @@
 				  <suiteXmlFile>testng_vendor_5.xml</suiteXmlFile>
 				  <suiteXmlFile>testng_customer_6.xml</suiteXmlFile>
 				  <suiteXmlFile>testng_loyalty_club_7.xml</suiteXmlFile>
-
+				  <suiteXmlFile>testng_loyalty_club_7.xml</suiteXmlFile>
 				 
 			  </suiteXmlFiles>
 		  </configuration>
